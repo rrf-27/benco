@@ -1,0 +1,41 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* === body === */
+
+html, body {
+	width: 100vw;
+	overflow-x: hidden;
+	height: 100vh;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, .5);
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+/* === heading === */
+h1 {
+	font-size: 2rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* === general === */
+.rrf-main-box-general {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	background: green;
+	border-radius: 10px;
+}
+
+.rrf-right {
+	float: right;
+}
+..rrf-left {
+	float: left;
+}
+
